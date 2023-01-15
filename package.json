@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodejsBitfumes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon nodejsBitfumes.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
+  }
+}
